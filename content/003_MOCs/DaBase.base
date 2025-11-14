@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: ICS
+    filters:
+      and:
+        - file.hasTag("icanstudy")
+  - type: table
+    name: Clippings
+    filters:
+      and:
+        - file.inFolder("Resources/Clippings")
+  - type: table
+    name: Orphans
+    filters:
+      and:
+        - file.links.isEmpty()
+        - '!file.hasTag("excalidraw", "todo")'
+        - '!file.inFolder("Fun")'
+        - '!file.inFolder("Resources/Clippings")'
