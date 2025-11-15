@@ -13,3 +13,4 @@ dg-home: "true"
 ![[index 2025-11-14 10.28.43.excalidraw.svg|10xNaN|196x299]]
 %%[[index 2025-11-14 10.28.43.excalidraw|🖋 Edit in Excalidraw]]%%
 
+pp
